@@ -1,0 +1,26 @@
+{
+  "name": "email_send_user",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SumanB1432/email_send_user.git"
+  },
+  "author": "Suman Bera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SumanB1432/email_send_user/issues"
+  },
+  "homepage": "https://github.com/SumanB1432/email_send_user#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0",
+    "nodemon": "^3.1.9"
+  }
+}
