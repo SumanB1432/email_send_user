@@ -2,9 +2,11 @@
   "name": "email_send_user",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"npx nodemon src/index.js",
+    "deploy":"firebase deploy --only functions:welcomeEmail"
   },
   "repository": {
     "type": "git",
@@ -20,7 +22,12 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "firebase-admin": "^13.1.0",
+    "firebase-functions": "^6.3.2",
     "nodemailer": "^6.10.0",
     "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": "22"
   }
 }
